@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tata Power Solaroof - Your Rooftop, Your Savings Account</title>
+    <meta name="description" content="India's No.1 Rooftop Solar Company. Save up to 80% on electricity bills with Tata Power Solaroof. Get free quote today!">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Sun Power</span>
+                <span class="logo-solar">Solaroof</span>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#products" class="nav-link">Products</a>
+                <a href="#calculator" class="nav-link">Calculator</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-actions">
+                <button class="btn btn-primary nav-cta">Get Free Quote</button>
+                <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="badge-text">🏆 India's No.1 Solar Company</span>
+                </div>
+                <h1 class="hero-title">
+                    Your Rooftop,<br>
+                    Your <span class="highlight">Savings Account</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Transform your rooftop into a smart investment. Save up to ₹25 lakhs over 25 years with India's most trusted solar solution.
+                </p>
+                <div class="hero-cta">
+                    <button class="btn btn-primary btn-large" onclick="scrollToSection('contact')">Get Free Quote</button>
+                    <button class="btn btn-secondary btn-large" onclick="scrollToSection('calculator')">Calculate Savings</button>
+                </div>
+                <div class="hero-trust">
+                    <div class="trust-item">
+                        <span class="trust-number">15,000+</span>
+                        <span class="trust-text">Happy Customers</span>
+                    </div>
+                    <div class="trust-item">
+                        <span class="trust-number">440MW+</span>
+                        <span class="trust-text">Installations</span>
+                    </div>
+                    <div class="trust-item">
+                        <span class="trust-number">30+</span>
+                        <span class="trust-text">Years Experience</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="solar-animation">
+                    <div class="solar-panel"></div>
+                    <div class="solar-rays">
+                        <div class="ray"></div>
+                        <div class="ray"></div>
+                        <div class="ray"></div>
+                        <div class="ray"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust & Credentials -->
+    <section class="credentials" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Trusted by Thousands</h2>
+                <p class="section-subtitle">Leading India's solar revolution with proven excellence</p>
+            </div>
+            <div class="credentials-grid">
+                <div class="credential-card">
+                    <div class="credential-icon">⚡</div>
+                    <div class="credential-number" data-target="440">0</div>
+                    <div class="credential-unit">MW+</div>
+                    <div class="credential-label">Installations</div>
+                </div>
+                <div class="credential-card">
+                    <div class="credential-icon">👥</div>
+                    <div class="credential-number" data-target="15000">0</div>
+                    <div class="credential-unit">+</div>
+                    <div class="credential-label">Customers</div>
+                </div>
+                <div class="credential-card">
+                    <div class="credential-icon">🤝</div>
+                    <div class="credential-number" data-target="200">0</div>
+                    <div class="credential-unit">+</div>
+                    <div class="credential-label">Partners</div>
+                </div>
+                <div class="credential-card">
+                    <div class="credential-icon">🏆</div>
+                    <div class="credential-number" data-target="30">0</div>
+                    <div class="credential-unit">+</div>
+                    <div class="credential-label">Years Experience</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-choose">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Why Choose Tata Power Solaroof?</h2>
+                <p class="section-subtitle">Experience the difference of working with India's most trusted solar brand</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🥇</div>
+                    <h3 class="feature-title">Ranked No.1</h3>
+                    <p class="feature-description">India's top rooftop solar brand for 8+ consecutive years</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🛠️</div>
+                    <h3 class="feature-title">30+ Years Experience</h3>
+                    <p class="feature-description">Proven engineering excellence and quality assurance</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💼</div>
+                    <h3 class="feature-title">Complete Solutions</h3>
+                    <p class="feature-description">End-to-end energy solutions with flexible financing</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔧</div>
+                    <h3 class="feature-title">Lifetime Support</h3>
+                    <p class="feature-description">Comprehensive service and post-installation support</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🛡️</div>
+                    <h3 class="feature-title">Zero Compromise</h3>
+                    <p class="feature-description">Strict adherence to 10 safety standards for your peace of mind</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products & Services -->
+    <section class="products" id="products">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">How Solar Works</h2>
+                <p class="section-subtitle">Simple, efficient, and designed for maximum savings</p>
+            </div>
+            <div class="solar-diagram">
+                <div class="diagram-step" data-step="1">
+                    <div class="step-icon">☀️</div>
+                    <h3 class="step-title">Solar Panels</h3>
+                    <p class="step-description">Convert sunlight into DC electricity</p>
+                </div>
+                <div class="diagram-step" data-step="2">
+                    <div class="step-icon">🔄</div>
+                    <h3 class="step-title">Inverter</h3>
+                    <p class="step-description">Converts DC to AC power</p>
+                </div>
+                <div class="diagram-step" data-step="3">
+                    <div class="step-icon">🏠</div>
+                    <h3 class="step-title">Your Home</h3>
+                    <p class="step-description">Powers your appliances</p>
+                </div>
+                <div class="diagram-step" data-step="4">
+                    <div class="step-icon">📊</div>
+                    <h3 class="step-title">Net Meter</h3>
+                    <p class="step-description">Tracks energy flow &amp; credits</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Savings Calculator -->
+    <section class="calculator" id="calculator">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Your Savings</h2>
+                <p class="section-subtitle">See how much you can save with solar power</p>
+            </div>
+            <div class="calculator-container">
+                <div class="calculator-inputs">
+                    <h3>Select System Size</h3>
+                    <div class="size-options">
+                        <button class="size-btn active" data-size="1">1 kW</button>
+                        <button class="size-btn" data-size="2">2 kW</button>
+                        <button class="size-btn" data-size="3">3 kW</button>
+                    </div>
+                </div>
+                <div class="calculator-results">
+                    <div class="result-card">
+                        <div class="result-icon">⚡</div>
+                        <div class="result-value" id="annualProduction">1,460</div>
+                        <div class="result-unit">kWh/year</div>
+                        <div class="result-label">Annual Production</div>
+                    </div>
+                    <div class="result-card">
+                        <div class="result-icon">💰</div>
+                        <div class="result-value" id="annualSavings">₹10,220</div>
+                        <div class="result-unit">per year</div>
+                        <div class="result-label">Annual Savings</div>
+                    </div>
+                    <div class="result-card">
+                        <div class="result-icon">📈</div>
+                        <div class="result-value" id="totalSavings">₹2,55,500</div>
+                        <div class="result-unit">over 25 years</div>
+                        <div class="result-label">Total Savings</div>
+                    </div>
+                    <div class="result-card">
+                        <div class="result-icon">🌱</div>
+                        <div class="result-value" id="co2Savings">1,350</div>
+                        <div class="result-unit">kg CO₂/year</div>
+                        <div class="result-label">Environment Impact</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Financing & Subsidies -->
+    <section class="financing">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Easy Financing Options</h2>
+                <p class="section-subtitle">Making solar affordable for everyone</p>
+            </div>
+            <div class="financing-content">
+                <div class="financing-card">
+                    <h3 class="card-title">SBI Surya Shakti Cell Partnership</h3>
+                    <div class="financing-features">
+                        <div class="feature-item">
+                            <div class="feature-icon">💳</div>
+                            <span>20% Down Payment</span>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">🔓</div>
+                            <span>Collateral-free Loans</span>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">⚡</div>
+                            <span>72-hour Approval</span>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">📊</div>
+                            <span>8% Interest Rate</span>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">📅</div>
+                            <span>Up to 10-year Tenure</span>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">📋</div>
+                            <span>Simple Documentation</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="subsidy-card">
+                    <h3 class="card-title">Government Subsidies</h3>
+                    <p class="subsidy-scheme">PM Surya Ghar Muft Bijli Yojana</p>
+                    <div class="subsidy-amounts">
+                        <div class="subsidy-item">
+                            <span class="subsidy-capacity">1 kW</span>
+                            <span class="subsidy-amount">₹30,000</span>
+                        </div>
+                        <div class="subsidy-item">
+                            <span class="subsidy-capacity">2 kW</span>
+                            <span class="subsidy-amount">₹60,000</span>
+                        </div>
+                        <div class="subsidy-item">
+                            <span class="subsidy-capacity">3 kW+</span>
+                            <span class="subsidy-amount">₹78,000</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Testimonial -->
+    <section class="testimonial">
+        <div class="container">
+            <div class="testimonial-card">
+                <div class="testimonial-content">
+                    <div class="quote-icon">💬</div>
+                    <blockquote class="testimonial-text">
+                        "Installing solar is like making a smart investment. I used to pay 3500-4500 INR every month on electricity bills, but now it's down to just around 400 INR per month. The level of service and the quality of installation are truly outstanding."
+                    </blockquote>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">👤</div>
+                        <div class="author-info">
+                            <div class="author-name">Residential Customer</div>
+                            <div class="author-system">5 kW On-Grid Installation</div>
+                            <div class="testimonial-rating">
+                                <span class="star">⭐</span>
+                                <span class="star">⭐</span>
+                                <span class="star">⭐</span>
+                                <span class="star">⭐</span>
+                                <span class="star">⭐</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Showcase -->
+    <section class="benefits">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Solar Benefits</h2>
+                <p class="section-subtitle">Why solar is the smartest investment for your future</p>
+            </div>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">💰</div>
+                    <h3 class="benefit-title">Guaranteed Lifetime Savings</h3>
+                    <p class="benefit-description">Save up to 80% reduction in electricity bills</p>
+                    <div class="benefit-highlight">Up to 80% savings</div>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">⚡</div>
+                    <h3 class="benefit-title">Quick Payback Period</h3>
+                    <p class="benefit-description">Fast payback in 4-7 years</p>
+                    <div class="benefit-highlight">4-7 years ROI</div>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">🌱</div>
+                    <h3 class="benefit-title">Become a Green Hero</h3>
+                    <p class="benefit-description">1kW system avoids 1,350 kgs CO₂/year</p>
+                    <div class="benefit-highlight">1,350 kg CO₂ saved</div>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">📊</div>
+                    <h3 class="benefit-title">Reduce Tax Burden</h3>
+                    <p class="benefit-description">Claim accelerated depreciation up to 40%</p>
+                    <div class="benefit-highlight">40% depreciation</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get Your Free Solar Quote</h2>
+                <p class="section-subtitle">Start your solar journey today. Our experts will design the perfect system for you.</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" name="name" required>
+                                <span class="form-error" id="nameError"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" required>
+                                <span class="form-error" id="phoneError"></span>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" required>
+                                <span class="form-error" id="emailError"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="city">City</label>
+                                <input type="text" id="city" name="city" required>
+                                <span class="form-error" id="cityError"></span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="monthlyBill">Monthly Electricity Bill (₹)</label>
+                            <select id="monthlyBill" name="monthlyBill" required>
+                                <option value="">Select your monthly bill range</option>
+                                <option value="1000-2000">₹1,000 - ₹2,000</option>
+                                <option value="2000-5000">₹2,000 - ₹5,000</option>
+                                <option value="5000-10000">₹5,000 - ₹10,000</option>
+                                <option value="10000+">₹10,000+</option>
+                            </select>
+                            <span class="form-error" id="monthlyBillError"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message (Optional)</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Tell us about your requirements..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-large btn-full">
+                            <span class="btn-text">Get Free Quote</span>
+                            <span class="btn-loader" id="btnLoader"></span>
+                        </button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div class="contact-details">
+                            <h4>Call Us</h4>
+                            <p>1800 25 77777</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">🌐</div>
+                        <div class="contact-details">
+                            <h4>Website</h4>
+                            <p>solaroof.tatapower.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">⏰</div>
+                        <div class="contact-details">
+                            <h4>Response Time</h4>
+                            <p>Within 24 hours</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <span class="logo-text">Tata Power</span>
+                        <span class="logo-solar">Solaroof</span>
+                    </div>
+                    <p class="footer-description">
+                        India's No.1 rooftop solar company. Transform your rooftop into a smart investment and contribute to a sustainable future.
+                    </p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4 class="footer-title">Company</h4>
+                        <ul class="footer-list">
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#products">Products</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="#">Careers</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4 class="footer-title">Services</h4>
+                        <ul class="footer-list">
+                            <li><a href="#calculator">Solar Calculator</a></li>
+                            <li><a href="#">Installation</a></li>
+                            <li><a href="#">Maintenance</a></li>
+                            <li><a href="#">Financing</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4 class="footer-title">Support</h4>
+                        <ul class="footer-list">
+                            <li><a href="#">Help Center</a></li>
+                            <li><a href="#">Documentation</a></li>
+                            <li><a href="#">Warranty</a></li>
+                            <li><a href="#">Service</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    <p>&copy; 2025 Tata Power Solaroof. All rights reserved.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-link" target="_blank" aria-label="Facebook">📘</a>
+                    <a href="#" class="social-link" target="_blank" aria-label="Twitter">🐦</a>
+                    <a href="#" class="social-link" target="_blank" aria-label="LinkedIn">💼</a>
+                    <a href="#" class="social-link" target="_blank" aria-label="Instagram">📸</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Success Modal -->
+    <div class="modal" id="successModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Quote Request Submitted!</h3>
+                <button class="modal-close" onclick="closeModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="success-icon">✅</div>
+                <p>Thank you for your interest in Tata Power Solaroof. Our solar experts will contact you within 24 hours to discuss your requirements and provide a customized quote.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
